@@ -86,6 +86,21 @@ Once the lunch configuration has been built, we must map it into the autoscale c
 ![image](https://user-images.githubusercontent.com/106981219/172328374-6b7a4cbf-023f-44a4-807d-3d050ca0277b.png)
 
 
+_Load balancer configuration_
+
+This load balancer setup is built using the auto scaling group. Based on the behavior of the instances up's and down, this group will automatically add and delete members.
+
+![image](https://user-images.githubusercontent.com/106981219/172329010-6c11b059-05b6-4ef4-8503-cf7f40ea2a92.png)
+
+
+_load balancer ssl termination process_
+
+In this situation, I'll utilise a free domain name and a free SSL certificate to accomplish this scenario.
+
+
+
+
+
 
 
   
