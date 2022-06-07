@@ -72,28 +72,28 @@ in future we can refer the AMI from the autoscalling groups.
 ![image](https://user-images.githubusercontent.com/106981219/172328135-5b2ea40a-949f-4cf8-a80d-c0d7d3621748.png)
 
 
-_create the lunch configuration_
+_**create the lunch configuration**_
 
 This lunch configuration must configure the freshly produced AMI images. This necessitates the use of attributes such as instance type, key pair, subnet, and security groups. 
 
 ![image](https://user-images.githubusercontent.com/106981219/172328204-2f965aff-105a-463d-8ffc-465f65f15626.png)
 
 
-_autoscalling configuration_
+**_autoscalling configuration**_
 
 Once the lunch configuration has been built, we must map it into the autoscale configuration. Instance should be expanded based on this configuration.
 
 ![image](https://user-images.githubusercontent.com/106981219/172328374-6b7a4cbf-023f-44a4-807d-3d050ca0277b.png)
 
 
-_Load balancer configuration_
+_**Load balancer configuratio**n_
 
 This load balancer setup is built using the auto scaling group. Based on the behavior of the instances up's and down, this group will automatically add and delete members.
 
 ![image](https://user-images.githubusercontent.com/106981219/172329010-6c11b059-05b6-4ef4-8503-cf7f40ea2a92.png)
 
 
-_load balancer ssl termination process_
+_**load balancer ssl termination process**_
 
 In this situation, I'll utilise a free domain name and a free SSL certificate to accomplish this scenario.
 
