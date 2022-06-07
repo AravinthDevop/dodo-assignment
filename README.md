@@ -56,6 +56,31 @@ _preject design_
 * alb load balancer
 * securty groups
 
+apps development
+
+In this case I used for below service
+
+* mongodn
+* nodejs
+* docker
+
+_**nodejs dockerfile**_
+
+```Dckerfile
+FROM node
+COPY . .
+RUN npm i
+CMD ["node", "index.js"]
+```
+
+_**dokcer commands**_
+
+```bash
+docker  network create dodo
+docker  volume create dodo-mongo
+docker run -d -p 27017:27017 --network dodo --name mongo -e MONGO_INITDB_ROOT_USERNAME=mongo -e MONGO_INITDB_ROOT_PASSWORD=secret mongo
+docker run -d -p 3000:3000 --network dodo -e MONGODB_URL='mongodb://mongo:secret@mongo:27017' --name api f409ed488d2b
+```
 
 _**Process of ami creation**_
 
