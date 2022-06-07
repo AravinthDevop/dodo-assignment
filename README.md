@@ -57,4 +57,17 @@ _preject design_
 * securty groups
 
 
-_Process of ami creation_
+_**Process of ami creation**_
+
+In order to consume the application in high availability mode. We need to prepare an AMI image. We can increase the number of instances dependent on the number of users or loads with help of autoscalling groups.
+
+_preparation_
+
+* create the instance
+* set it up all the application based configuration and changes
+* take it a AMI from the running instance
+
+in future we can refer the AMI from the autoscalling groups.
+
+
+
