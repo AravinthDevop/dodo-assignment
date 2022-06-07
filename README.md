@@ -101,9 +101,13 @@ _**CNAME record**_
 
 ![image](https://user-images.githubusercontent.com/106981219/172333276-8c8f36cf-f273-40a7-8e7a-03b14970d982.png)
 
+_**SSL purchase**_
+
+![image](https://user-images.githubusercontent.com/106981219/172335875-8e042fff-a142-460d-86fd-8f8f9bbd75ba.png)
+
 _**http to https redirection**_
 
-in order to redirect the non secure connection
+in order to redirect the non secure connection make a changes in alb configuration
 
 ![image](https://user-images.githubusercontent.com/106981219/172335219-1b2e1f9b-0e8b-4d5a-86c3-86e4747843b0.png)
 
