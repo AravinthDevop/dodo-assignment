@@ -23,13 +23,13 @@ _You may choose AWS or Azure cloud for solving this problem_
   - Setup alerts if the avg response time of api is more than 2 secs
   - Setup dashboard to understand the correlation between instance up scaling/down scaling alongside http status/failures
 
-### Additional Notes
+_Additional Notes_
 
-1. Feel free to reach out to us via the conveyed teams channel or email (`hr@crayondata.com`) in case of questions.
-2. Please submit the solution via Github or gitlab.
-3. Please write descriptive commit messages to facilitate better understanding of your approach.
-4. Bonus points for a scalable design.
-5. Do validate your solution before submitting.
+* Feel free to reach out to us via the conveyed teams channel or email (`hr@crayondata.com`) in case of questions.
+* Please submit the solution via Github or gitlab.
+* Please write descriptive commit messages to facilitate better understanding of your approach.
+* Bonus points for a scalable design.
+* Do validate your solution before submitting.
 
 
 _**Solution**_
@@ -46,6 +46,15 @@ _preject design_
 * aws ec2 instance key pair
 * vpc
 * subnet - 3
-    * public subnet   - 2 (Application loadbalancer require min two availabllity zone)
+    * public subnet   - 2 ( Application loadbalancer require min two availabllity zone )
     * private -subnet - 1
-    *  
+    * route table     - 2
+      * private subnet rt - 1
+      * publict subnet rt - 1
+* ec2 instance launch configuration
+* autoscaling group
+* alb load balancer
+* securty groups
+
+
+_Process of ami creation_
