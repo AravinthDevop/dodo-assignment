@@ -34,5 +34,18 @@ _You may choose AWS or Azure cloud for solving this problem_
 
 _**Solution**_
 
+To achieve this scenario, I will use the AWS resource listed below.
 
+_preject design_
 
+|resource|purpose|
+|---|---|
+|aws| cloud|
+
+* aws ami creation
+* aws ec2 instance key pair
+* vpc
+* subnet - 3
+    * public subnet   - 2 (Application loadbalancer require min two availabllity zone)
+    * private -subnet - 1
+    *  
