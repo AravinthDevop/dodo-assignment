@@ -97,7 +97,9 @@ _**load balancer ssl termination process**_
 
 In this situation, I'll utilise a free domain name and a free SSL certificate to accomplish this scenario.
 
+_**CNAME record**_
 
+![image](https://user-images.githubusercontent.com/106981219/172333276-8c8f36cf-f273-40a7-8e7a-03b14970d982.png)
 
 
 
