@@ -82,6 +82,9 @@ docker run -d -p 27017:27017 --network dodo --name mongo -e MONGO_INITDB_ROOT_US
 docker run -d -p 3000:3000 --network dodo -e MONGODB_URL='mongodb://mongo:secret@mongo:27017' --name api f409ed488d2b
 ```
 
+![image](https://user-images.githubusercontent.com/106981219/172350473-24d1feb5-a047-4389-82bd-094f322f8855.png)
+
+
 _**Process of ami creation**_
 
 In order to consume the application in high availability mode. We need to prepare an AMI image. We can increase the number of instances dependent on the number of users or loads with help of autoscalling groups.
