@@ -101,12 +101,14 @@ _**CNAME record**_
 
 ![image](https://user-images.githubusercontent.com/106981219/172333276-8c8f36cf-f273-40a7-8e7a-03b14970d982.png)
 
-http to https redirection
+_**http to https redirection**_
 
 in order to redirect the non secure connection
 
 ![image](https://user-images.githubusercontent.com/106981219/172335219-1b2e1f9b-0e8b-4d5a-86c3-86e4747843b0.png)
 
+
+_**outout**_
 
 ![image](https://user-images.githubusercontent.com/106981219/172335118-6095944e-1a76-4a4c-8679-1a0300c0051f.png)
 
